@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+body{
+    font-family: 'Baloo 2', cursive
+}
+
+
+.parrent{
+
+    
+    height: 80vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-image: url("image/3.jpg");
+}
+
+.child{
+    color:whitesmoke;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+.test{
+    font-size: 60px;
+}
+
+.en {
+    color: whitesmoke;
+    padding: 15px 42px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: burlywood;
+    font-size: 22px;
+}
+.en:hover{
+    background-color: cornsilk;
+    color: black;
+    cursor: pointer;
+}
+
+/*Main menu*/
+
+.main li{
+    width: 78px;
+    
+    float: left;
+    padding: 10px 31px;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+   
+}
+
+.mmanu{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    padding:10px 10px;
+    top:10px;
+    left:4%;
+    width: 90%;
+   
+}
+
+.main li:hover{
+    
+    color: gold;
+    border-bottom:1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.mainlogo{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    
+   
+}
+
+.cours{
+    margin-top: 20px;
+    
+}
+
+.ch{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+
+}
+.box{
+    display:flex;
+    justify-content: space-around;
+}
+
+.box .b1{
+    height: 500px;
+    width: 400px;
+    border:1.3px solid black;
+    border-radius: 10px;
+    font-size:25px;
+    padding: 15px;
+    color: rgb(34, 26, 27);
+    overflow: auto;
+    
+    
+}
+
+.box p{
+    font-size: 23px;
+}
+
+.bxhe{
+    text-align:center;
+    padding: 20px;
+}
+
+.gr{
+    border:2px solid black;
+    height: 70vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+   
+    grid-template-areas: "box1 box2 box3 box3"
+                        
+    
+    
+    
+}
+
+.box1{
+    
+    grid-area: box1;
+    
+    
+}
+.gr img{
+    width:100%
+}
+
+.box2{
+    
+    grid-area: box2;
+    
+}
+.box3{
+    
+    
+    grid-area: box3;
+}
